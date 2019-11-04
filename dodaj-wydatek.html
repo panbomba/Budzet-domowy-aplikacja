@@ -3,10 +3,10 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>***Ogarnij swoje finanse! Prosta w obsludze aplikacja internetowa pomagajaca kontrolowac Twoje przychody i wydatki!***</title>
-	<meta name="description" content="*Aplikacja internetowa Budzet Domowy*" />
-	<meta name="keywords" content="budzet, finanse, pieniadze" />
-	<meta http-equiv="X-UA-Compatibile"  content="IE=edge,chrome=1" />
+	<title>***Ogarnij swoje finanse! Prosta w obsłudze aplikacja internetowa pomagająca kontrolować Twoje przychody i wydatki!***</title>
+	<meta name="description" content="*Aplikacja internetowa Budżet Domowy*" />
+	<meta name="keywords" content="budżet, finanse, pieniądze" />
+	<meta http-equiv="X-UA-Compatible"  content="IE=edge,chrome=1" />
 	<meta name="author" content="Maciej Bombik" />
 	
 	<link rel="stylesheet" href="style.css" type ="text/css" />
@@ -22,7 +22,7 @@
 	<form action="wydatek.php" method="post">
 			<label> Kwota    <input type="number" step="0.01" name="kwota"></label>
 		<br><br>
-			<label>Data     <input type="date" name="kiedy" value="today"></label>
+			<label>Data     <input type="date" name="kiedy"></label>
 		<br><br>
 			<fieldset>
 				<legend>Kategoria</legend>
@@ -36,20 +36,20 @@
 					<div><label><input type="radio" value="3" name="nadwozie"> Rozrywka</label></div>
 					<div><label><input type="radio" value="3" name="nadwozie"> Wycieczka</label></div>
 					<div><label><input type="radio" value="3" name="nadwozie"> Szkolenia</label></div>
-					<div><label><input type="radio" value="3" name="nadwozie"> Ksiazki</label></div>
-					<div><label><input type="radio" value="3" name="nadwozie"> Oszczednosci</label></div>
-					<div><label><input type="radio" value="3" name="nadwozie"> Na zlota jesien, czyli emeryture</label></div>
-					<div><label><input type="radio" value="3" name="nadwozie"> Splata dlugow</label></div>
+					<div><label><input type="radio" value="3" name="nadwozie"> Książki</label></div>
+					<div><label><input type="radio" value="3" name="nadwozie"> Oszczędności</label></div>
+					<div><label><input type="radio" value="3" name="nadwozie"> Na złotą jesień, czyli emeryturę</label></div>
+					<div><label><input type="radio" value="3" name="nadwozie"> Spłata długów</label></div>
 					<div><label><input type="radio" value="3" name="nadwozie"> Darowizna</label></div>
 					<div><label><input type="radio" value="3" name="nadwozie"> Inne wydatki</label></div>
 			</fieldset>
-			<label for="okres">Sposob Platnosci</label>
-				<select name="okres">
-					<option value="go" selected>Gotowka</option>
+			<label for="okres">Sposób Płatności</label>
+				<select name="okres" id="okres">
+					<option value="go" selected>Gotówka</option>
 					<option value="pr">Przelew</option>
 					<option value="kd">Karta debetowa</option>
 					<option value="kk">Karta kredytowa</option>
-					<option value="in">Inna metoda platnosci</option>
+					<option value="in">Inna metoda płatności</option>
 				</select>
 		<br><br>
 			<div><label for="komentarz">Dodatkowe komentarze</label></div>
