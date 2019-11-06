@@ -1,33 +1,65 @@
 body
 {
-	background-color: #ffffff;
+	background-color: #e6f9ff;
 	color: #000000;
 }
 
 #logo-strony
 {
-	margin-top: 15px;
 	padding-top: 30px;
 	padding-bottom: 15px;
-	background-color:  #26C6DA;
+	background-color:  #0099ff;
 	font-family: 'Roboto', sans-serif;
 	width: 100% ;
 	text-align: center;
 	font-size: 55px;
 	color: white;
-	border-bottom: 3px solid #15B5CA;
-	border-top: 3px solid #15B5CA;
+	border-bottom: 4px solid #15B5CA;
+	border-top: 4px solid #15B5CA;
 	max-height: 220px;
 }
 
 #cytat
 {
+	letter-spacing: 2px;
 	font-family: 'Roboto', sans-serif;
-	padding-top: 15px;
-	font-size: 16px;
+	padding-top: 10px;
+	font-size: 18px;
 }
 
 .navbar
 {
 	min-height: 80px;
+}
+
+.bg-wlasne
+{
+	background-color: #353535;
+	font-size:20px;
+	border-bottom: 4px solid #15B5CA;
+}
+
+.icon-shopping-bag
+{
+	color: #15B5CA;
+}
+
+.icon-menu-outline
+{
+	color: #15B5CA;
+}
+
+.icon-money-1
+{
+	color: #15B5CA;
+}
+
+.icon-chart-line
+{
+	color: #15B5CA;
+}
+
+.icon-logout
+{
+	color: tomato;
 }
