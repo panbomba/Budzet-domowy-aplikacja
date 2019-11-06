@@ -1,35 +1,82 @@
 body
 {
-	background-color: #309030;
-	color: #ffffff;
+	background-color: #d5e8ee;
+	color: #000000;
 }
 
-#container
+#logo-strony
 {
-width: 600px;
-margin-top: 50px;
-margin-left: auto;
-margin-right: auto;	
+	padding-top: 30px;
+	padding-bottom: 15px;
+	background-color:  #0099ff;
+	font-family: 'Roboto', sans-serif;
+	width: 100% ;
+	text-align: center;
+	font-size: 65px;
+	color: white;
+	border-bottom: 4px solid #15B5CA;
+	border-top: 4px solid #15B5CA;
+	max-height: 220px;
 }
 
-#menuglowne
+#cytat
 {
+	letter-spacing: 2px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+.navbar
+{
+	min-height: 80px;
+}
+
+.bg-wlasne
+{
+	background-color: #353535;
+	font-size:20px;
+	border-bottom: 4px solid #15B5CA;
+}
+
+.icon-shopping-bag
+{
+	color: #15B5CA;
+}
+
+.icon-menu-outline
+{
+	color: #15B5CA;
+}
+
+.icon-money-1
+{
+	color: #15B5CA;
+}
+
+.icon-chart-line
+{
+	color: #15B5CA;
+}
+
+.icon-logout
+{
+	color: tomato;
+}
+
+.artykul-main
+{
+	margin-top: 60px;
 	margin-left: auto;
+	margin-bottom: 40px;
 	margin-right: auto;
-	width: 600px;
-	height: 700px;
-	padding: 30px;
+	width: 80%;
 	text-align: center;
 }
 
-h1
+.artykul-main p
 {
-	font-size: 30px;
-	text-align: center
-}
-
-.opcjamenu
-{
-	padding: 15px;
-	font-size: 20px;
+	padding-top: 30px;
+	font-size: 16px;
+	text-align: justify;
 }
