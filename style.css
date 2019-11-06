@@ -63,3 +63,20 @@ body
 {
 	color: tomato;
 }
+
+.artykul-main
+{
+	margin-top: 60px;
+	margin-left: auto;
+	margin-bottom: 40px;
+	margin-right: auto;
+	width: 80%;
+	text-align: center;
+}
+
+.artykul-main p
+{
+	padding-top: 30px;
+	font-size: 16px;
+	text-align: justify;
+}
