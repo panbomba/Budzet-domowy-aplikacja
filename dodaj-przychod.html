@@ -40,10 +40,10 @@
 							<li class="nav-item">
 								<a class="nav-link" href="main-menu.html"><i class="icon-menu-outline"></i>Start  </a> 
 							</li>
-							<li class="nav-item">
+							<li class="nav-item active">
 								<a class="nav-link" href="dodaj-przychod.html"><i class="icon-money-1"></i>Dodaj Przychód  </a> 
 							</li>
-							<li class="nav-item active">
+							<li class="nav-item">
 								<a class="nav-link" href="dodaj-wydatek.html"><i class="icon-shopping-bag"></i>Dodaj Wydatek  </a> 
 							</li>
 							<li class="nav-item">
@@ -59,46 +59,26 @@
 		
 		<main>
 			<section>
-				<div class="wydatek">
+				<div class="przychod">
 
-						<h1>Dodaj wydatek</h1>
-								<form action="wydatek.php" method="post">
+						<h1>Dodaj przychód</h1>
+								<form action="przychod.php" method="post">
 									<label> Kwota    <input type="number" step="0.01" name="kwota"></label>
 										<br><br>
 									<label>Data     <input type="date" name="kiedy"></label>
 										<br><br>
 									<fieldset class="radio">
 										<legend>Kategoria</legend>
-											<div><label><input type="radio" value="1" name="wydatek"> Jedzenie</label></div>
-											<div><label><input type="radio" value="2" name="wydatek"> Mieszkanie</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Transport</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Telekomunikacja</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Opieka zdrowotna</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Higiena</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Dzieci</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Rozrywka</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Wycieczka</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Szkolenia</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Książki</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Oszczędności</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Na złotą jesień, czyli emeryturę</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Spłata długów</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Darowizna</label></div>
-											<div><label><input type="radio" value="3" name="wydatek"> Inne wydatki</label></div>
+											<div><label><input type="radio" value="1" name="przychod"> Wynagrodzenie</label></div>
+											<div><label><input type="radio" value="2" name="przychod"> Odsetki bankowe</label></div>
+											<div><label><input type="radio" value="3" name="przychod"> Zysk ze sprzedaży </label></div>
+											<div><label><input type="radio" value="3" name="przychod"> Inne</label></div>
 									</fieldset>
-									<label for="okres">Sposób Płatności</label>
-										<select name="okres" id="okres">
-											<option value="go" selected>Gotówka</option>
-											<option value="pr">Przelew</option>
-											<option value="kd">Karta debetowa</option>
-											<option value="kk">Karta kredytowa</option>
-											<option value="in">Inna metoda płatności</option>
-										</select>
-									<br><br>
+									<br>
 									<div><label for="komentarz">Dodatkowe komentarze</label></div>
 										<textarea name="komentarz" id="komentarz" rows="4" cols="50"> </textarea>
 								<br><br>
-								<input type="submit" value="Dodaj wydatek">
+								<input type="submit" value="Dodaj przychod">
 								<br><br>
 								<input type="reset" value="Anuluj">
 
@@ -107,6 +87,7 @@
 				</div>
 			</section>
 		</main>
+
 		<footer>
 				<div id="stopka">
 					moje finan$e<i class="icon-money"></i> 2019 &copy; Maciej Bombik  <i class="icon-mail-alt"></i> maciej.bombik.programista@gmail.com

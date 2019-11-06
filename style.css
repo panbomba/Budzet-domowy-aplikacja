@@ -2,6 +2,7 @@ body
 {
 	background-color: #d5e8ee;
 	color: #000000;
+	font-family: 'Lato', sans-serif;
 }
 
 #logo-strony
@@ -25,6 +26,23 @@ body
 	font-family: 'Roboto', sans-serif;
 	padding-top: 10px;
 	font-size: 18px;
+}
+
+#stopka
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color:  #0099ff;
+	font-family: 'Roboto', sans-serif;
+	width: 100% ;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	border-bottom: 4px solid #15B5CA;
+	border-top: 4px solid #15B5CA;
+	max-height: 50px;
+	position: fixed;
+	bottom: 0;
 }
 
 .navbar
@@ -79,4 +97,29 @@ body
 	padding-top: 30px;
 	font-size: 16px;
 	text-align: justify;
+}
+
+.radio
+{
+	text-align: left;
+}
+
+.przychod
+{
+	margin-top: 60px;
+	margin-left: auto;
+	margin-bottom: 40px;
+	margin-right: auto;
+	width: 400px;
+	text-align: center;
+}
+
+.wydatek
+{
+	margin-top: 60px;
+	margin-left: auto;
+	margin-bottom: 40px;
+	margin-right: auto;
+	width: 400px;
+	text-align: center;
 }
