@@ -61,8 +61,8 @@
 		</nav>
 		
 		<main>
-			<section>
-				<div class="artykul-main col-md-6">
+			<section class="artykul-main">
+				<div>
 					<h1>Przegladaj bilans</h1>
 					
 							<form action="bilans.php" method="post">
@@ -75,19 +75,41 @@
 									<option value="ns">Okres niestandardowy</option>
 								</select>
 										<br><br>
-								<input type="submit" value="Przeglądaj">
+								<input type="submit" style="background-color: #7af47e" value="Przeglądaj">
+										<br><br>
 	
 							</form>	
-						<div class="tile1">
-							<br/>Przychody
+			<div class="container">		
+				<div class="row">			
+					<div class="col-sm-6">
+						<div class = tile1>
+						Przychody
+							<p>
+							Zestawienie wyswietli sie po zdefiniowaniu okresu przez uzytkownika.
+							Tutaj podsumowania itp test test test test test test
+							</p>
 						</div>
-						<div class="tile1">
-							<br/>Wydatki
+					</div>
+					<div class="col-sm-6">
+						<div class = tile1>
+						Wydatki 
+							<p>
+							Zestawienie wyswietli sie po zdefiniowaniu okresu przez uzytkownika.
+							Tutaj podsumowania itp test test test test test test
+							</p>
 						</div>
-						<div style="clear:both"></div>
-							<div class="tile2">
-									<br/>Podsumowanie
-							</div>	
+					</div>
+						
+					<div class="col-sm-12">
+						<div class = tile2>
+						Podsumowanie
+							<p>
+							Wyswietli sie po zdefiniowaniu okresu. Bedzie zawierac graf oraz zdanie podsumowania w zaleznosci od wyniku.
+							</p>
+						</div>
+					</div>
+				</div>	
+			</div>	
 				</div>
 			</section>
 		</main>
