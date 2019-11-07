@@ -147,3 +147,8 @@ body
 	width: 80%;
 	text-align: center;
 }
+
+input
+{
+	border-radius: 5px;
+}
