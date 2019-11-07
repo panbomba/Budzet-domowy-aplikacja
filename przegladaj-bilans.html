@@ -63,22 +63,45 @@
 		<main>
 			<section class="artykul-main-bilans">
 				<div class="container">
-					<h1>Przegladaj bilans</h1>
-							<form action="bilans.php" method="post">
-			
-								<label for="okres">Wybierz okres</label>
-								<select  name="okres" id="okres">
-									<option value="cm" selected>Bieżący miesiąc</option>
-									<option value="pm">Poprzedni miesiąc</option>
-									<option value="cy">Bieżacy rok</option>
-									<option value="ns">Okres niestandardowy</option>
-								</select>
-										<br><br>
-								<input type="submit" style="background-color: #7af47e" value="Przeglądaj">
-										<br><br>
-	
-							</form>	
-			<div>		
+					<h1>Przegladaj bilans</h1><br>
+
+						<div class="dropdown">
+								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Wybierz okres
+								</button>
+							 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+								<button class="dropdown-item" type="button">Bieżący miesiąc</button>
+								<button class="dropdown-item" type="button">Poprzedni miesiąc</button>
+								<button class="dropdown-item" type="button">Bieżący rok</button>
+								<button class="dropdown-item btn btn-primary" type="button" data-toggle="modal" data-target="#modal-daty">Okres niestandardowy</button>
+							 </div>
+						</div>
+
+<!-- Modal -->
+						<div class="modal fade" id="modal-daty" tabindex="-1" role="dialog" aria-labelledby="modal-daty" aria-hidden="true">
+							 <div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="modal-daty">Wybierz daty</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+								  </div>
+								  <form action="daty.php" method="post">
+								  <div class="modal-body">
+										<label>Data początkowa<input type="date" name="start"></label>
+										<label>Data końcowa<input type="date" name="end"></label>
+								  </div>
+								  </form>
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Zamknij</button>
+									<button type="button" class="btn btn-success">Zapisz</button>
+								</div>
+								</div>
+							 </div>
+						</div>
+						
+			<div>	<br>	
 				<div class="row">			
 					<div class="col-md-6">
 						<div class = tile1>
